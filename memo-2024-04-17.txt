@@ -1,0 +1,10 @@
+100ohms, 0.25 W resistor definitions
+MPN: Resistor-100ohms-0.25W
+Value: 100ohms-0.25W
+Manufacturer: Generic
+Description: 100ohms, 0.25W Axial Lead
+
+parametric data
+Value: 100
+Tolerance: 0
+Power rating 0.25

@@ -1,0 +1,130 @@
+{
+    "arcs": {},
+    "default_model": "00000000-0000-0000-0000-000000000000",
+    "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1000000,
+                1000000
+            ],
+            "spacing_square": 1500000
+        },
+        "grids": {}
+    },
+    "junctions": {
+        "10c6e431-02d1-4bcc-aa7c-cb5c058c1e9e": {
+            "position": [
+                3000000,
+                -1500000
+            ]
+        },
+        "281d58ac-c803-48fd-b9f5-ebdb2b0266b9": {
+            "position": [
+                3000000,
+                1500000
+            ]
+        },
+        "7b914476-62a2-4dcc-a425-1a4e108b6dcd": {
+            "position": [
+                -3000000,
+                1500000
+            ]
+        },
+        "bbb0f3bb-d8ef-492b-bee2-40167fe237e9": {
+            "position": [
+                -3000000,
+                -1500000
+            ]
+        }
+    },
+    "keepouts": {},
+    "lines": {
+        "24bbfc1b-6bd0-45cd-9252-e7d768d985f2": {
+            "from": "bbb0f3bb-d8ef-492b-bee2-40167fe237e9",
+            "layer": 20,
+            "to": "10c6e431-02d1-4bcc-aa7c-cb5c058c1e9e",
+            "width": 200000
+        },
+        "27ade260-649c-45a2-a167-ff1cc9387d5a": {
+            "from": "10c6e431-02d1-4bcc-aa7c-cb5c058c1e9e",
+            "layer": 20,
+            "to": "281d58ac-c803-48fd-b9f5-ebdb2b0266b9",
+            "width": 200000
+        },
+        "a2ccbd71-f497-43bc-9f6a-f1e05607a238": {
+            "from": "7b914476-62a2-4dcc-a425-1a4e108b6dcd",
+            "layer": 20,
+            "to": "bbb0f3bb-d8ef-492b-bee2-40167fe237e9",
+            "width": 200000
+        },
+        "b3650c84-fc6e-4edf-b1c1-d0b5790f73d8": {
+            "from": "281d58ac-c803-48fd-b9f5-ebdb2b0266b9",
+            "layer": 20,
+            "to": "7b914476-62a2-4dcc-a425-1a4e108b6dcd",
+            "width": 200000
+        }
+    },
+    "manufacturer": "Generic",
+    "models": {},
+    "name": "Axial-Lead-400mil-Pitch",
+    "pads": {
+        "61631933-b5ff-4698-8276-659a5fd6c9f0": {
+            "name": "1",
+            "padstack": "d1e83669-2ee1-4b42-ad5a-c264e785b7f1",
+            "parameter_set": {
+                "hole_diameter": 900000,
+                "pad_diameter": 1400000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -5080000,
+                    0
+                ]
+            }
+        },
+        "b90255f5-b13f-49b0-9833-cf209797ad5a": {
+            "name": "2",
+            "padstack": "d1e83669-2ee1-4b42-ad5a-c264e785b7f1",
+            "parameter_set": {
+                "hole_diameter": 900000,
+                "pad_diameter": 1400000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    5080000,
+                    0
+                ]
+            }
+        }
+    },
+    "parameter_program": "",
+    "parameter_set": {},
+    "polygons": {},
+    "rules": {
+        "clearance_package": {
+            "clearance_silkscreen_cu": 200000,
+            "clearance_silkscreen_pkg": 200000,
+            "enabled": true,
+            "order": -1
+        },
+        "package_checks": {
+            "enabled": true,
+            "order": -1
+        }
+    },
+    "tags": [],
+    "texts": {},
+    "type": "package",
+    "uuid": "11890a20-774c-4542-ac9a-4a912b163691"
+}

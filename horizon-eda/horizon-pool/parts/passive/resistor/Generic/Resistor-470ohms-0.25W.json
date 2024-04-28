@@ -1,0 +1,46 @@
+{
+    "MPN": [
+        false,
+        "Resistor-470ohms-0.25W"
+    ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "470ohms, 0.25W Axial Lead"
+    ],
+    "entity": "3ce770af-7be0-4f72-b2af-2c8010911aaf",
+    "inherit_model": true,
+    "inherit_tags": false,
+    "manufacturer": [
+        false,
+        "Generic"
+    ],
+    "model": "00000000-0000-0000-0000-000000000000",
+    "package": "11890a20-774c-4542-ac9a-4a912b163691",
+    "pad_map": {
+        "61631933-b5ff-4698-8276-659a5fd6c9f0": {
+            "gate": "48af78e5-730e-44eb-977a-cf188e4fcb39",
+            "pin": "6a44037c-65e2-4876-9359-42890048841d"
+        },
+        "b90255f5-b13f-49b0-9833-cf209797ad5a": {
+            "gate": "48af78e5-730e-44eb-977a-cf188e4fcb39",
+            "pin": "dda0ec99-5d70-4fbe-a8db-897542e7554e"
+        }
+    },
+    "parametric": {
+        "pmax": "0.25",
+        "table": "resistors",
+        "tolerance": "0",
+        "value": "470"
+    },
+    "tags": [],
+    "type": "part",
+    "uuid": "bd214d42-498f-4f77-8a65-98a6ec65312e",
+    "value": [
+        false,
+        "470ohms-0.25W"
+    ]
+}
